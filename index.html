@@ -6,7 +6,120 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a href="" class="main-header-logo">
+          <img src="http://placehold.it/371x155" width="371" height="155" alt="Barbershop logo">
+        </a>
+        <ul class="main-menu">
+          <li><a href="">Информация</a></li>
+          <li><a href="">Новости</a></li>
+          <li><a href="">Прайс-лист</a></li>
+          <li><a href="">Магазин</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="user-navigation">
+        <li class="login-link"><a href="">Вход</a></li>
+      </ul>
+    </header>
 
+    <main class="container">
+      <h1 class="visually-hidden">Барбершоп "Бородинский" </h1>
+
+      <section class="features">
+        <h2 class="visually-hidden">Промо</h2>
+        <ul class="features-list">
+          <li class="feature-item">
+            <h3>Быстро</h3>
+            <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+          </li>
+          <li class="feature-item">
+            <h3>Круто</h3>
+            <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+          </li>
+          <li class="feature-item">
+            <h3>Дорого</h3>
+            <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="news">
+        <h2>Новости</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+            <time datetime="2018-01-11">11 января</time>
+          </li>
+          <li class="news-item">
+            <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+            <time datetime="2018-01-18">18 января</time>
+          </li>
+        </ul>
+        <a href="" class="news-all">Все новости</a>
+      </section>
+
+      <section class="photo-gallery">
+        <h2>Фотогалерея</h2>
+        <figure class="gallery-content">
+          <a href="">
+            <img src="http://placehold.it/328x164" width="328" height="164" alt="Интерьер Барбершопа">
+          </a>
+        </figure>
+        <a href="" class="gallery-back-btn">Назад</a>
+        <a href="" class="gallery-forward-btn">Вперёд</a>
+      </section>
+
+      <section class="contacts">
+        <h2>Контактная информация</h2>
+        <p>БАРБЕРШОП «БОРОДИНСКИЙ» АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 ТЕЛЕФОН: +7 (495) 666-02-66</p>
+        <p>ВРЕМЯ РАБОТЫ: ПН—ПТ: С 10:00 ДО 22:00 СБ—ВС: С 10:00 ДО 19:00</p>
+        <a href="" class="modal-map-btn">Как проехать</a>
+        <a href="" class="modal-mail-btn">Обратная связь</a>
+      </section>
+
+      <section class="order">
+        <h2>Записаться</h2>
+        <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+        <!-- Здесь будет форма для записи -->
+        <button>Отправить</button>
+      </section>
+
+    </main>
+
+    <footer class="main-footer">
+      <div class="contacts-footer">
+        <p class="footer-address">
+          БАРБЕРШОП «БОРОДИНСКИЙ» АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+        </p>
+        <a class="footer-map-btn" href="">КАК НАС НАЙТИ?</a>
+        <p class="footer-phone">
+          ТЕЛЕФОН: +7 (495) 666-02-66
+        </p>
+      </div>
+      <p class="footer-social">
+        <span>Давайте дружить</span>
+        <a class="footer-social-item" href="https://vk.com/"></a>
+        <a class="footer-social-item" href="https://facebook.com/"></a>
+        <a class="footer-social-item" href="https://instagram.com/"></a>
+      </p>
+      <p class="footer-credits">
+        <span>Разработано:</span>
+        <a href="https://htmlacademy.ru/">htmlacademy.ru</a>
+      </p>
+    </footer>
+
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p>Введите свой логин и пароль.</p>
+      <!-- Здесь будет форма -->
+      <span class="modal-close">x</span>
+    </section>
+
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <span class="modal-close">x</span>
+    </section>
   </body>
 </html>
